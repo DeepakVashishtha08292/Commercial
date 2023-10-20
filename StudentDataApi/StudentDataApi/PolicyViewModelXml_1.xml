@@ -1,0 +1,43 @@
+<pageViewModel name="Policy" title="Policy" startingPage="0" show="true" readOnly="false">
+	<view product="Carrier_SampleProductBase_3_0_0_0" modelCollection="MainInterview" viewModel="Policy" id="Carrier_SampleProductBase_3_0_0_0_MainInterview_Policy_View" uri="http://localhost:8080/duckcreek/api/v2/views/Carrier_SampleProductBase_3_0_0_0_MainInterview_Policy_View.xml"/>
+	<fields>
+		<group name="Policy" objectRef="Policy" id="Policy" minimum="1" maximum="2147483647" show="true">
+			<field name="PolicyInput.EffectiveDate" value="2023-07-21" reference="pDAC4AF6252E8476BA32F8E7462985487" product="Carrier_SampleProductBase_3_0_0_0" caption="Effective Date" dataType="date" controlType="text" format="" maxLength="10" readOnly="false" show="true" disabled="false" min="" max="" required="false" id="PolicyInput.EffectiveDate" applicable="true"/>
+			<field name="PolicyInput.ExpirationDate" value="2024-07-21" reference="pDAC4AF6252E8476BA32F8E7462985487" product="Carrier_SampleProductBase_3_0_0_0" caption="Expiration Date" dataType="date" controlType="text" format="" maxLength="10" readOnly="true" show="true" disabled="false" min="" max="" required="false" id="PolicyInput.ExpirationDate" applicable="true"/>
+			<field name="PolicyOutput.LineOfBusiness" value="" reference="pDAC4AF6252E8476BA32F8E7462985487" product="Carrier_SampleProductBase_3_0_0_0" caption="Line Of Business" dataType="string" controlType="text" format="" maxLength="0" readOnly="false" show="true" disabled="false" min="" max="" required="false" id="PolicyOutput.LineOfBusiness" applicable="true"/>
+		</group>
+	</fields>
+	<actions>
+		<action name="previous" id="Back_MainInterview_Account" description="Go to previous page" caption="Back" contentType="application/xml" controlType="action" show="true" disabled="false" API_Navigation="Back">
+			<method index="0" type="PUT" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/zGpU8eDDFEm0XNzI3Nw-f33Jq_TA/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+			<method index="1" type="GET" modelCollection="MainInterview" viewModel="Account" uri="http://localhost:8080/duckcreek/api/v2/policies/jXnDkiT2g0mpfNzI3NwP9BDimLSw/modelCollections/MainInterview/viewModels/Account.xml?historyId=7277"/>
+		</action>
+		<action name="current" id="Current_MainInterview_Policy" description="Go to current page" caption="Current" contentType="application/xml" controlType="action" show="true" disabled="false" API_Navigation="Current">
+			<method index="0" type="PUT" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/KqMIxVDlXkW8dNzI3NwhRvvRo0eA/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+			<method index="1" type="GET" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/faS2XSwNMUGqANzI3NwIs_poToqw/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+		</action>
+	</actions>
+	<externalViews/>
+	<pageActions>
+		<action name="Account" id="Policy_MainInterview_Account" description="Go to Page" caption="Account" contentType="application/xml" controlType="action" show="true" disabled="false" index="1">
+			<method index="0" type="PUT" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/Y21IdacbwEyZrNzI3NwGv7QJZSNg/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+			<method index="1" type="GET" modelCollection="MainInterview" viewModel="Account" uri="http://localhost:8080/duckcreek/api/v2/policies/z2s60eCbd0y0VNzI3NwKdGz9a1vA/modelCollections/MainInterview/viewModels/Account.xml?historyId=7277"/>
+		</action>
+		<action name="Policy" id="Policy_MainInterview_Policy" description="Go to Page" caption="Policy" contentType="application/xml" controlType="action" show="true" disabled="false" index="2">
+			<method index="0" type="PUT" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/jrVljxfBS0OIfNzI3NwvqWZEr_kw/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+			<method index="1" type="GET" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/GNuQVUNuK06fiNzI3NwCiyJB1YyQ/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+		</action>
+	</pageActions>
+	<productActions/>
+	<utilityActions>
+		<action name="Save" id="Save_MainInterview_Policy" description="Saves Policy" caption="Save" contentType="application/xml" controlType="action" show="false" disabled="false">
+			<method index="0" type="PUT" modelCollection="MainInterview" viewModel="Policy" uri="http://localhost:8080/duckcreek/api/v2/policies/Vj7P1PQc90WctNzI3NwajWl3-e9w/modelCollections/MainInterview/viewModels/Policy.xml?historyId=7277"/>
+		</action>
+		<action name="Start" id="startProduct" description="StartQuote" caption="Start" contentType="application/xml" controlType="action" show="false" disabled="false">
+			<method index="0" type="POST" uri="http://localhost:8080/duckcreek/api/v2/policies.xml?Product=Carrier_SampleProductBase_3_0_0_0"/>
+		</action>
+	</utilityActions>
+	<messages>
+		<message value="Policy already checked out by this user" flag="Information"/>
+	</messages>
+</pageViewModel>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <id>1</id>
+    <name>Divyank Singh Sikarwar</name>
+    <branch>CSE</branch>
+    <age>18</age>
+    <city>Agra</city>
+  </student>
+  <student>
+    <id>2</id>
+    <name>Aniket Chauhan</name>
+    <branch>CSE</branch>
+    <age>20</age>
+    <city>Shahjahanpur</city>
+  </student>
+  <student>
+    <id>3</id>
+    <name>Simran Agarwal</name>
+    <branch>CSE</branch>
+    <age>23</age>
+    <city>Buland Shar</city>
+  </student>
+  <student>
+    <id>4</id>
+    <name>Abhay Chauhan</name>
+    <branch>CSE</branch>
+    <age>17</age>
+    <city>Shahjahanpur</city>
+  </student>
+  <student>
+    <id>5</id>
+    <name>Himanshu Bhatia</name>
+    <branch>IT</branch>
+    <age>25</age>
+    <city>Indore</city>
+  </student>
+  <student id="6">
+    <name>Abhay Chauhan</name>
+    <branch>CSE</branch>
+    <age>17</age>
+    <city>Shahjahanpur</city>
+  </student>
+</students>
